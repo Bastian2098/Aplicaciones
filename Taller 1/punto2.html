@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario web basico</title>
+</head>
+<body>
+    <h1>Formulario WEB basico</h1>
+    <form title="Informacion del usuario">
+        <fieldset>
+        <legend>Informacion del usuario</legend>
+        <label for="Nombre">Nombre: </label>
+        <input type="text" name="Nombre" id="Nombre"value="Nombre de usuario..."><BR><BR>
+        <label for="e-mail">Direccion e-mail: </label>
+        <input type="email" name="e-mail" id="e-mail" value="Correo electronico... "><br><BR>    
+        <label for="Ciudad">Ciudad: </label>
+        <select id="Ciudad" name="Ciudad" style="display: insite;">
+            <option value="Seleccione option" >Seleccione opcion...</option>
+            <option value="Bogota">Bogota</option>
+            <option value="Cartagena">Cartagena</option>
+            <option value="Medellin">Medellin</option>   
+        </select><br><BR>
+        <label for="Aficion">Aficiones:</label><br>
+        <input type="checkbox" name="Aficion" id="Aficion1" value="Deportes"><label for="Aficion1">Deportes</label><BR>
+        <input type="checkbox" name="Aficion" id="Aficion2" value="Autos"><label for="Aficion2">Autos</label><BR>
+        <input type="checkbox" name="Aficion" id="Aficion3" value="Musica"><label for="Aficion3">Musica</label><BR><BR>
+        <label for="sexo">Sexo: </label><BR>    
+        <input type="radio" name="sexo" id="Masculino"value="Masculino"><label for="Masculino">Masculino</label><BR>
+        <input type="radio" name="sexo" id="Femenino" value="Femenino"><label for="Femenino">Femenino</label><BR>
+        <input type="submit" value="enviar formulario"><input type="reset" value="limpiar formulario">    
+    </fieldset>
+    </form>
+</body>
+</html>
